@@ -1,5 +1,5 @@
 ﻿00168 ¨  .   uml     
-00161 ¡  ic   iexcl   
+00161 ¡  i   iexcl   
 00162 ¢  C   cent    
 00163 £  F           
 00165 ¥  Y   yen     
@@ -14,6 +14,8 @@
 00183 ·  .   middot  
 00185 ¹  1   sup1    
 00186 º  O   ordm    
+00197 Å  A   Aring   AA
+00230 å  a   aring   aa
 00883 ͳ  T           
 00886 Ͷ  N           
 00887 ͷ  N           
