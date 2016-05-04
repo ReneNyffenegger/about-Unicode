@@ -11,6 +11,7 @@ close $out;
 
 opendir(my $dir, '.') or die;
 while (my $filename_read = readdir($dir)) {
+# decode filename_read into perl's internal form.
   $filename_read = decode('utf8', $filename_read);
   print "found\n" if $filename_read eq filename;
 }
