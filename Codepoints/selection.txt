@@ -1,11 +1,11 @@
-﻿00168 ¨  .   uml     ':
-00161 ¡  i   iexcl   !I
+﻿00161 ¡  i   iexcl   !I
 00162 ¢  C   cent    Ct
 00163 £  F           Pd
 00164 ¤  o           Cu
 00165 ¥  Y   yen     Ye
 00166 ¦  i           BB
 00167 §  S   sect    SE
+00168 ¨  .   uml     ':
 00169 ©  C   copy    Co
 00170 ª  A           -a
 00171 «  <           <<
