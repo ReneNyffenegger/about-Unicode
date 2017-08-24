@@ -8,12 +8,12 @@ open my $out, '>:encoding(utf-8)', 'Find-Unicode-Character-by-Appearance.html' o
 
 print $out '<!doctype html>
 <html>
-<head><title>Find Unicode Characters by Appearance</title>
+<head><title>Find Unicode Characters by visual appearance</title>
 <meta name="description" content= "Find a Unicode Character if you know approximately how it looks like" />
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 </head>
 <body>
-<h1>Find Unicode Characters by Appearance</h1>
+<h1>Find Unicode Characters by visual appearance</h1>
 
   This page might be helpful to find Unicode Characters not by its code point but rather by its appearance. For example, if the desired character looks like an <b>R</b>, you might
   find it <a href="#c83">here</a>.
