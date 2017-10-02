@@ -13,6 +13,9 @@ print $out '<!doctype html>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 </head>
 <body>
+
+  See also <a href="subscript-superscript.html">Superscript Unicode Characters</a>.
+
 <h1>Find Unicode characters by visual appearance</h1>
 
   This page might be helpful to find Unicode Characters not by its code point but rather by its appearance. For example, if the desired character looks like an <b>R</b>, you might
