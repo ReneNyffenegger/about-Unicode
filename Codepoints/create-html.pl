@@ -14,7 +14,6 @@ print $out '<!doctype html>
 </head>
 <body>
 
-  See also <a href="subscript-superscript.html">Superscript Unicode Characters</a>.
 
 <h1>Find Unicode characters by visual appearance</h1>
 
@@ -70,10 +69,12 @@ sub add_look_like {
 
 }
 
-print $out "\n<hr>See alse <a href='http://www.unicode.org/Public/security/latest/confusables.txt'>confusables.txt</a>,
+print $out "\n<hr>See also <a href='http://www.unicode.org/Public/security/latest/confusables.txt'>confusables.txt</a>,
   <a href='https://stackoverflow.com/questions/4846365/find-characters-that-are-similar-glyphically-in-unicode'>https://stackoverflow.com/questions/4846365/find-characters-that-are-similar-glyphically-in-unicode</a> (Especially <a href='https://stackoverflow.com/a/9506068/180275'>This answer</a>),
   <a href='https://stackoverflow.com/questions/9491890/is-there-a-list-of-characters-that-look-similar-to-english-letters'>https://stackoverflow.com/questions/9491890/is-there-a-list-of-characters-that-look-similar-to-english-letters</a>
   <a href='https://stackoverflow.com/questions/1008802/converting-symbols-accent-letters-to-english-alphabet'>https://stackoverflow.com/questions/1008802/converting-symbols-accent-letters-to-english-alphabet</a>
   <p><a href='http://www.fileformat.info/info/unicode/block/letterlike_symbols/images.htm'>Letter like symbols</a>
+  <p><a href='subscript-superscript.html'>Superscript Unicode Characters</a>
+  <p><a href='/development/web/html/escape-characters.html'>HTML Escape characters</a>
   ";
 print $out "\n</html>";
