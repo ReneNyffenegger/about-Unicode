@@ -419,8 +419,8 @@
 008459 ℋ  H           
 008460 ℌ  H           
 008461 ℍ  H           
-008462 ℎ  h           
-008463 ℏ  h           
+008462 ℎ  h                renenyffenegger.ch/notes/Mythologie/Quantenphysik/Plancksches-Wirkungsquantum
+008463 ℏ  h                renenyffenegger.ch/notes/Mythologie/Quantenphysik/Plancksches-Wirkungsquantum
 008464 ℐ  I           
 008465 ℑ  I           
 008466 ℒ  L           
