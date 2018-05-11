@@ -1,4 +1,7 @@
 #!/usr/bin/perl
+#
+#  https://renenyffenegger.ch/development/Unicode/Find-Unicode-Character-by-Appearance.html
+#
 use warnings;
 use strict;
 use utf8;
@@ -7,10 +10,23 @@ open my $in , '<:encoding(utf-8)', 'selection.txt' or die;
 open my $out, '>:encoding(utf-8)', 'Find-Unicode-Character-by-Appearance.html' or die;
 
 print $out '<!doctype html>
+<!--
+
+  Created by https://github.com/ReneNyffenegger/about-Unicode/blob/master/Codepoints/create-html.pl
+
+-->
 <html>
 <head><title>Find Unicode characters by visual appearance</title>
 <meta name="description" content= "Find a Unicode Character if you know approximately how it looks like" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css"> 
+  .index-char {}
+
+  @media screen and (max-width: 1000px) {
+    .index-char {font-size: 2em }
+  }
+</style>
 </head>
 <body>
 
@@ -42,7 +58,7 @@ while (my $line = <$in>) {
 }
 
 for my $look_like (sort keys %look_likes) {
-  print $out "<a href='#c" . ord($look_like) . "'>$look_like</a> ";
+  print $out "<a href='#c" . ord($look_like) . "'><span class='index-char'>$look_like</span></a> ";
 }
 
 for my $look_like (sort keys %look_likes) {
