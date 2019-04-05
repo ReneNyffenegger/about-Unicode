@@ -36,6 +36,8 @@ print $out '<!doctype html>
   This page might be helpful to find Unicode Characters not by its code point but rather by its appearance. For example, if the desired character looks like an <b>R</b>, you might
   find it <a href="#c82">here</a>.
   <p>
+    <i>2019-04-05</i>: I just found <a href="http://unicode.org/charts/collation">This collation chart</a> which most certainly is complete.
+  <p>
   Complete list of <i>index characters</i>:
 ';
 
